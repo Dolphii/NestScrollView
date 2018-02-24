@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B22B3BC200F4FE200376887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3BB200F4FE200376887 /* AppDelegate.m */; };
+		0B22B3BF200F4FE200376887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3BE200F4FE200376887 /* ViewController.m */; };
+		0B22B3C2200F4FE200376887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B22B3C0200F4FE200376887 /* Main.storyboard */; };
+		0B22B3C4200F4FE200376887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B22B3C3200F4FE200376887 /* Assets.xcassets */; };
+		0B22B3C7200F4FE200376887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B22B3C5200F4FE200376887 /* LaunchScreen.storyboard */; };
+		0B22B3CA200F4FE200376887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3C9200F4FE200376887 /* main.m */; };
+		0B22B3D4200F4FE200376887 /* NestScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3D3200F4FE200376887 /* NestScrollViewDemoTests.m */; };
+		0B22B3DF200F4FE200376887 /* NestScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3DE200F4FE200376887 /* NestScrollViewDemoUITests.m */; };
+		0B22B41D200F514900376887 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3EF200F514900376887 /* UIScrollView+MJRefresh.m */; };
+		0B22B41E200F514900376887 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3F0200F514900376887 /* MJRefreshConst.m */; };
+		0B22B41F200F514900376887 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B22B3F4200F514900376887 /* MJRefresh.bundle */; };
+		0B22B420200F514900376887 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3F6200F514900376887 /* UIScrollView+MJExtension.m */; };
+		0B22B421200F514900376887 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3F9200F514900376887 /* NSBundle+MJRefresh.m */; };
+		0B22B422200F514900376887 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B3FA200F514900376887 /* UIView+MJExtension.m */; };
+		0B22B423200F514900376887 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B401200F514900376887 /* MJRefreshBackGifFooter.m */; };
+		0B22B424200F514900376887 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B402200F514900376887 /* MJRefreshBackStateFooter.m */; };
+		0B22B425200F514900376887 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B403200F514900376887 /* MJRefreshBackNormalFooter.m */; };
+		0B22B426200F514900376887 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B408200F514900376887 /* MJRefreshAutoStateFooter.m */; };
+		0B22B427200F514900376887 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B409200F514900376887 /* MJRefreshAutoGifFooter.m */; };
+		0B22B428200F514900376887 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B40A200F514900376887 /* MJRefreshAutoNormalFooter.m */; };
+		0B22B429200F514900376887 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B40C200F514900376887 /* MJRefreshNormalHeader.m */; };
+		0B22B42A200F514900376887 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B410200F514900376887 /* MJRefreshStateHeader.m */; };
+		0B22B42B200F514900376887 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B411200F514900376887 /* MJRefreshGifHeader.m */; };
+		0B22B42C200F514900376887 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B413200F514900376887 /* MJRefreshFooter.m */; };
+		0B22B42D200F514900376887 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B415200F514900376887 /* MJRefreshHeader.m */; };
+		0B22B42E200F514900376887 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B417200F514900376887 /* MJRefreshBackFooter.m */; };
+		0B22B42F200F514900376887 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B418200F514900376887 /* MJRefreshAutoFooter.m */; };
+		0B22B430200F514900376887 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B41A200F514900376887 /* MJRefreshComponent.m */; };
+		0B22B435200F524700376887 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B434200F524700376887 /* WaterFlowLayout.m */; };
+		0B22B438200F532100376887 /* NestContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B437200F532100376887 /* NestContentScrollView.m */; };
+		0B22B43B200F534000376887 /* CollectionContainerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B22B43A200F534000376887 /* CollectionContainerScrollView.m */; };
+		0B6272B72011C65300BAA7CB /* PinnedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6272B62011C65300BAA7CB /* PinnedView.m */; };
+		0BA499512014DD010011CA5C /* NestCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA499502014DD010011CA5C /* NestCollectionCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B22B3D0200F4FE200376887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B22B3AF200F4FE200376887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B22B3B6200F4FE200376887;
+			remoteInfo = NestScrollViewDemo;
+		};
+		0B22B3DB200F4FE200376887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B22B3AF200F4FE200376887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B22B3B6200F4FE200376887;
+			remoteInfo = NestScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B22B3B7200F4FE200376887 /* NestScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22B3BA200F4FE200376887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B22B3BB200F4FE200376887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B22B3BD200F4FE200376887 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B22B3BE200F4FE200376887 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B22B3C1200F4FE200376887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B22B3C3200F4FE200376887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B22B3C6200F4FE200376887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B22B3C8200F4FE200376887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B22B3C9200F4FE200376887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B22B3CF200F4FE200376887 /* NestScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22B3D3200F4FE200376887 /* NestScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestScrollViewDemoTests.m; sourceTree = "<group>"; };
+		0B22B3D5200F4FE200376887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B22B3DA200F4FE200376887 /* NestScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22B3DE200F4FE200376887 /* NestScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestScrollViewDemoUITests.m; sourceTree = "<group>"; };
+		0B22B3E0200F4FE200376887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B22B3EF200F514900376887 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		0B22B3F0200F514900376887 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		0B22B3F1200F514900376887 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		0B22B3F2200F514900376887 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		0B22B3F3200F514900376887 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		0B22B3F4200F514900376887 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		0B22B3F5200F514900376887 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		0B22B3F6200F514900376887 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		0B22B3F7200F514900376887 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		0B22B3F8200F514900376887 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		0B22B3F9200F514900376887 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		0B22B3FA200F514900376887 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		0B22B3FE200F514900376887 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		0B22B3FF200F514900376887 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		0B22B400200F514900376887 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		0B22B401200F514900376887 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		0B22B402200F514900376887 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		0B22B403200F514900376887 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		0B22B405200F514900376887 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		0B22B406200F514900376887 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		0B22B407200F514900376887 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		0B22B408200F514900376887 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		0B22B409200F514900376887 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		0B22B40A200F514900376887 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		0B22B40C200F514900376887 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		0B22B40D200F514900376887 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		0B22B40E200F514900376887 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		0B22B40F200F514900376887 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		0B22B410200F514900376887 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		0B22B411200F514900376887 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		0B22B413200F514900376887 /* MJRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooter.m; sourceTree = "<group>"; };
+		0B22B414200F514900376887 /* MJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
+		0B22B415200F514900376887 /* MJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeader.m; sourceTree = "<group>"; };
+		0B22B416200F514900376887 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		0B22B417200F514900376887 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		0B22B418200F514900376887 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		0B22B419200F514900376887 /* MJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeader.h; sourceTree = "<group>"; };
+		0B22B41A200F514900376887 /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
+		0B22B41B200F514900376887 /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
+		0B22B41C200F514900376887 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		0B22B433200F524700376887 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		0B22B434200F524700376887 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		0B22B436200F532100376887 /* NestContentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestContentScrollView.h; sourceTree = "<group>"; };
+		0B22B437200F532100376887 /* NestContentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestContentScrollView.m; sourceTree = "<group>"; };
+		0B22B439200F534000376887 /* CollectionContainerScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionContainerScrollView.h; sourceTree = "<group>"; };
+		0B22B43A200F534000376887 /* CollectionContainerScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionContainerScrollView.m; sourceTree = "<group>"; };
+		0B6272B52011C65300BAA7CB /* PinnedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinnedView.h; sourceTree = "<group>"; };
+		0B6272B62011C65300BAA7CB /* PinnedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinnedView.m; sourceTree = "<group>"; };
+		0BA4994F2014DD010011CA5C /* NestCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestCollectionCell.h; sourceTree = "<group>"; };
+		0BA499502014DD010011CA5C /* NestCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestCollectionCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B22B3B4200F4FE200376887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22B3CC200F4FE200376887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22B3D7200F4FE200376887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B22B3AE200F4FE200376887 = {
+			isa = PBXGroup;
+			children = (
+				0B22B3B9200F4FE200376887 /* NestScrollViewDemo */,
+				0B22B3D2200F4FE200376887 /* NestScrollViewDemoTests */,
+				0B22B3DD200F4FE200376887 /* NestScrollViewDemoUITests */,
+				0B22B3B8200F4FE200376887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B22B3B8200F4FE200376887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3B7200F4FE200376887 /* NestScrollViewDemo.app */,
+				0B22B3CF200F4FE200376887 /* NestScrollViewDemoTests.xctest */,
+				0B22B3DA200F4FE200376887 /* NestScrollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B22B3B9200F4FE200376887 /* NestScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3EE200F514900376887 /* MJRefresh-3.1.12 */,
+				0B22B3BA200F4FE200376887 /* AppDelegate.h */,
+				0B22B3BB200F4FE200376887 /* AppDelegate.m */,
+				0B22B3C0200F4FE200376887 /* Main.storyboard */,
+				0B22B3BD200F4FE200376887 /* ViewController.h */,
+				0B22B3BE200F4FE200376887 /* ViewController.m */,
+				0B22B432200F524700376887 /* WaterFlowLayout */,
+				0B22B431200F519500376887 /* NestScrollView */,
+				0B22B3C3200F4FE200376887 /* Assets.xcassets */,
+				0B22B3C5200F4FE200376887 /* LaunchScreen.storyboard */,
+				0B22B3C8200F4FE200376887 /* Info.plist */,
+				0B22B3C9200F4FE200376887 /* main.m */,
+			);
+			path = NestScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		0B22B3D2200F4FE200376887 /* NestScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3D3200F4FE200376887 /* NestScrollViewDemoTests.m */,
+				0B22B3D5200F4FE200376887 /* Info.plist */,
+			);
+			path = NestScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		0B22B3DD200F4FE200376887 /* NestScrollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3DE200F4FE200376887 /* NestScrollViewDemoUITests.m */,
+				0B22B3E0200F4FE200376887 /* Info.plist */,
+			);
+			path = NestScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		0B22B3EE200F514900376887 /* MJRefresh-3.1.12 */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3EF200F514900376887 /* UIScrollView+MJRefresh.m */,
+				0B22B3F0200F514900376887 /* MJRefreshConst.m */,
+				0B22B3F1200F514900376887 /* UIScrollView+MJExtension.h */,
+				0B22B3F2200F514900376887 /* MJRefresh.h */,
+				0B22B3F3200F514900376887 /* NSBundle+MJRefresh.h */,
+				0B22B3F4200F514900376887 /* MJRefresh.bundle */,
+				0B22B3F5200F514900376887 /* UIView+MJExtension.h */,
+				0B22B3F6200F514900376887 /* UIScrollView+MJExtension.m */,
+				0B22B3F7200F514900376887 /* MJRefreshConst.h */,
+				0B22B3F8200F514900376887 /* UIScrollView+MJRefresh.h */,
+				0B22B3F9200F514900376887 /* NSBundle+MJRefresh.m */,
+				0B22B3FA200F514900376887 /* UIView+MJExtension.m */,
+				0B22B3FB200F514900376887 /* Custom */,
+				0B22B412200F514900376887 /* Base */,
+			);
+			path = "MJRefresh-3.1.12";
+			sourceTree = "<group>";
+		};
+		0B22B3FB200F514900376887 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3FC200F514900376887 /* Footer */,
+				0B22B40B200F514900376887 /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		0B22B3FC200F514900376887 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3FD200F514900376887 /* Back */,
+				0B22B404200F514900376887 /* Auto */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		0B22B3FD200F514900376887 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B3FE200F514900376887 /* MJRefreshBackGifFooter.h */,
+				0B22B3FF200F514900376887 /* MJRefreshBackStateFooter.h */,
+				0B22B400200F514900376887 /* MJRefreshBackNormalFooter.h */,
+				0B22B401200F514900376887 /* MJRefreshBackGifFooter.m */,
+				0B22B402200F514900376887 /* MJRefreshBackStateFooter.m */,
+				0B22B403200F514900376887 /* MJRefreshBackNormalFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		0B22B404200F514900376887 /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B405200F514900376887 /* MJRefreshAutoStateFooter.h */,
+				0B22B406200F514900376887 /* MJRefreshAutoNormalFooter.h */,
+				0B22B407200F514900376887 /* MJRefreshAutoGifFooter.h */,
+				0B22B408200F514900376887 /* MJRefreshAutoStateFooter.m */,
+				0B22B409200F514900376887 /* MJRefreshAutoGifFooter.m */,
+				0B22B40A200F514900376887 /* MJRefreshAutoNormalFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		0B22B40B200F514900376887 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B40C200F514900376887 /* MJRefreshNormalHeader.m */,
+				0B22B40D200F514900376887 /* MJRefreshStateHeader.h */,
+				0B22B40E200F514900376887 /* MJRefreshGifHeader.h */,
+				0B22B40F200F514900376887 /* MJRefreshNormalHeader.h */,
+				0B22B410200F514900376887 /* MJRefreshStateHeader.m */,
+				0B22B411200F514900376887 /* MJRefreshGifHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		0B22B412200F514900376887 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B413200F514900376887 /* MJRefreshFooter.m */,
+				0B22B414200F514900376887 /* MJRefreshComponent.h */,
+				0B22B415200F514900376887 /* MJRefreshHeader.m */,
+				0B22B416200F514900376887 /* MJRefreshAutoFooter.h */,
+				0B22B417200F514900376887 /* MJRefreshBackFooter.m */,
+				0B22B418200F514900376887 /* MJRefreshAutoFooter.m */,
+				0B22B419200F514900376887 /* MJRefreshHeader.h */,
+				0B22B41A200F514900376887 /* MJRefreshComponent.m */,
+				0B22B41B200F514900376887 /* MJRefreshFooter.h */,
+				0B22B41C200F514900376887 /* MJRefreshBackFooter.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0B22B431200F519500376887 /* NestScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B436200F532100376887 /* NestContentScrollView.h */,
+				0B22B437200F532100376887 /* NestContentScrollView.m */,
+				0B6272B52011C65300BAA7CB /* PinnedView.h */,
+				0B6272B62011C65300BAA7CB /* PinnedView.m */,
+				0B22B439200F534000376887 /* CollectionContainerScrollView.h */,
+				0B22B43A200F534000376887 /* CollectionContainerScrollView.m */,
+				0BA4994F2014DD010011CA5C /* NestCollectionCell.h */,
+				0BA499502014DD010011CA5C /* NestCollectionCell.m */,
+			);
+			path = NestScrollView;
+			sourceTree = "<group>";
+		};
+		0B22B432200F524700376887 /* WaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0B22B433200F524700376887 /* WaterFlowLayout.h */,
+				0B22B434200F524700376887 /* WaterFlowLayout.m */,
+			);
+			path = WaterFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B22B3B6200F4FE200376887 /* NestScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B22B3E3200F4FE200376887 /* Build configuration list for PBXNativeTarget "NestScrollViewDemo" */;
+			buildPhases = (
+				0B22B3B3200F4FE200376887 /* Sources */,
+				0B22B3B4200F4FE200376887 /* Frameworks */,
+				0B22B3B5200F4FE200376887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestScrollViewDemo;
+			productName = NestScrollViewDemo;
+			productReference = 0B22B3B7200F4FE200376887 /* NestScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B22B3CE200F4FE200376887 /* NestScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B22B3E6200F4FE200376887 /* Build configuration list for PBXNativeTarget "NestScrollViewDemoTests" */;
+			buildPhases = (
+				0B22B3CB200F4FE200376887 /* Sources */,
+				0B22B3CC200F4FE200376887 /* Frameworks */,
+				0B22B3CD200F4FE200376887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B22B3D1200F4FE200376887 /* PBXTargetDependency */,
+			);
+			name = NestScrollViewDemoTests;
+			productName = NestScrollViewDemoTests;
+			productReference = 0B22B3CF200F4FE200376887 /* NestScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B22B3D9200F4FE200376887 /* NestScrollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B22B3E9200F4FE200376887 /* Build configuration list for PBXNativeTarget "NestScrollViewDemoUITests" */;
+			buildPhases = (
+				0B22B3D6200F4FE200376887 /* Sources */,
+				0B22B3D7200F4FE200376887 /* Frameworks */,
+				0B22B3D8200F4FE200376887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B22B3DC200F4FE200376887 /* PBXTargetDependency */,
+			);
+			name = NestScrollViewDemoUITests;
+			productName = NestScrollViewDemoUITests;
+			productReference = 0B22B3DA200F4FE200376887 /* NestScrollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B22B3AF200F4FE200376887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dolphii;
+				TargetAttributes = {
+					0B22B3B6200F4FE200376887 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0B22B3CE200F4FE200376887 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B22B3B6200F4FE200376887;
+					};
+					0B22B3D9200F4FE200376887 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B22B3B6200F4FE200376887;
+					};
+				};
+			};
+			buildConfigurationList = 0B22B3B2200F4FE200376887 /* Build configuration list for PBXProject "NestScrollViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B22B3AE200F4FE200376887;
+			productRefGroup = 0B22B3B8200F4FE200376887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B22B3B6200F4FE200376887 /* NestScrollViewDemo */,
+				0B22B3CE200F4FE200376887 /* NestScrollViewDemoTests */,
+				0B22B3D9200F4FE200376887 /* NestScrollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B22B3B5200F4FE200376887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22B3C7200F4FE200376887 /* LaunchScreen.storyboard in Resources */,
+				0B22B3C4200F4FE200376887 /* Assets.xcassets in Resources */,
+				0B22B41F200F514900376887 /* MJRefresh.bundle in Resources */,
+				0B22B3C2200F4FE200376887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22B3CD200F4FE200376887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22B3D8200F4FE200376887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B22B3B3200F4FE200376887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22B42B200F514900376887 /* MJRefreshGifHeader.m in Sources */,
+				0B22B42F200F514900376887 /* MJRefreshAutoFooter.m in Sources */,
+				0B22B420200F514900376887 /* UIScrollView+MJExtension.m in Sources */,
+				0B22B42A200F514900376887 /* MJRefreshStateHeader.m in Sources */,
+				0B22B421200F514900376887 /* NSBundle+MJRefresh.m in Sources */,
+				0B22B41D200F514900376887 /* UIScrollView+MJRefresh.m in Sources */,
+				0B22B430200F514900376887 /* MJRefreshComponent.m in Sources */,
+				0B22B43B200F534000376887 /* CollectionContainerScrollView.m in Sources */,
+				0B22B42C200F514900376887 /* MJRefreshFooter.m in Sources */,
+				0B22B425200F514900376887 /* MJRefreshBackNormalFooter.m in Sources */,
+				0B22B427200F514900376887 /* MJRefreshAutoGifFooter.m in Sources */,
+				0B22B428200F514900376887 /* MJRefreshAutoNormalFooter.m in Sources */,
+				0B22B429200F514900376887 /* MJRefreshNormalHeader.m in Sources */,
+				0B22B3BF200F4FE200376887 /* ViewController.m in Sources */,
+				0B22B423200F514900376887 /* MJRefreshBackGifFooter.m in Sources */,
+				0B22B3CA200F4FE200376887 /* main.m in Sources */,
+				0B22B424200F514900376887 /* MJRefreshBackStateFooter.m in Sources */,
+				0B22B426200F514900376887 /* MJRefreshAutoStateFooter.m in Sources */,
+				0B22B438200F532100376887 /* NestContentScrollView.m in Sources */,
+				0B22B42D200F514900376887 /* MJRefreshHeader.m in Sources */,
+				0B22B435200F524700376887 /* WaterFlowLayout.m in Sources */,
+				0B22B3BC200F4FE200376887 /* AppDelegate.m in Sources */,
+				0B22B41E200F514900376887 /* MJRefreshConst.m in Sources */,
+				0BA499512014DD010011CA5C /* NestCollectionCell.m in Sources */,
+				0B22B42E200F514900376887 /* MJRefreshBackFooter.m in Sources */,
+				0B6272B72011C65300BAA7CB /* PinnedView.m in Sources */,
+				0B22B422200F514900376887 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22B3CB200F4FE200376887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22B3D4200F4FE200376887 /* NestScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B22B3D6200F4FE200376887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B22B3DF200F4FE200376887 /* NestScrollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B22B3D1200F4FE200376887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B22B3B6200F4FE200376887 /* NestScrollViewDemo */;
+			targetProxy = 0B22B3D0200F4FE200376887 /* PBXContainerItemProxy */;
+		};
+		0B22B3DC200F4FE200376887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B22B3B6200F4FE200376887 /* NestScrollViewDemo */;
+			targetProxy = 0B22B3DB200F4FE200376887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B22B3C0200F4FE200376887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B22B3C1200F4FE200376887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B22B3C5200F4FE200376887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B22B3C6200F4FE200376887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B22B3E1200F4FE200376887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B22B3E2200F4FE200376887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B22B3E4200F4FE200376887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSPRZ652Y;
+				INFOPLIST_FILE = NestScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguan.NestScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B22B3E5200F4FE200376887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSPRZ652Y;
+				INFOPLIST_FILE = NestScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguan.NestScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B22B3E7200F4FE200376887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSPRZ652Y;
+				INFOPLIST_FILE = NestScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguan.NestScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestScrollViewDemo.app/NestScrollViewDemo";
+			};
+			name = Debug;
+		};
+		0B22B3E8200F4FE200376887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSPRZ652Y;
+				INFOPLIST_FILE = NestScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguan.NestScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestScrollViewDemo.app/NestScrollViewDemo";
+			};
+			name = Release;
+		};
+		0B22B3EA200F4FE200376887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSPRZ652Y;
+				INFOPLIST_FILE = NestScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguan.NestScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestScrollViewDemo;
+			};
+			name = Debug;
+		};
+		0B22B3EB200F4FE200376887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVSPRZ652Y;
+				INFOPLIST_FILE = NestScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguan.NestScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestScrollViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B22B3B2200F4FE200376887 /* Build configuration list for PBXProject "NestScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22B3E1200F4FE200376887 /* Debug */,
+				0B22B3E2200F4FE200376887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B22B3E3200F4FE200376887 /* Build configuration list for PBXNativeTarget "NestScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22B3E4200F4FE200376887 /* Debug */,
+				0B22B3E5200F4FE200376887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B22B3E6200F4FE200376887 /* Build configuration list for PBXNativeTarget "NestScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22B3E7200F4FE200376887 /* Debug */,
+				0B22B3E8200F4FE200376887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B22B3E9200F4FE200376887 /* Build configuration list for PBXNativeTarget "NestScrollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22B3EA200F4FE200376887 /* Debug */,
+				0B22B3EB200F4FE200376887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B22B3AF200F4FE200376887 /* Project object */;
+}
